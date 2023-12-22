@@ -1,0 +1,97 @@
+.
+└── .gitattributes
+└── .gitignore
+└── describe_directory.py
+│ docs
+│ │ docs\design_documents
+│ │ └── folder_structure.md
+│ └── user_manual.md
+└── generate_folder_structure.py
+└── README.md
+│ scripts
+│ └── run_world_generator.sh
+│ src
+│ │ src\core
+│ │ └── main.py
+│ │ │ src\core\models
+│ │ │ └── person.py
+│ │ │ │ src\core\models\political_structures
+│ │ │ │ └── government_type.py
+│ │ │ │ └── judiciary.py
+│ │ │ │ └── legislature.py
+│ │ │ │ └── political_party.py
+│ │ │ │ └── __init__.py
+│ │ │ │ src\core\models\settlements
+│ │ │ │ └── city.py
+│ │ │ │ └── country.py
+│ │ │ │ └── __init__.py
+│ │ │ │ src\core\models\social_structures
+│ │ │ │ └── education_systems.py
+│ │ │ │ └── family.py
+│ │ │ │ └── professions.py
+│ │ │ │ └── religions.py
+│ │ │ │ └── __init__.py
+│ │ │ └── __init__.py
+│ │ │ │ src\core\models\__pycache__
+│ │ │ │ └── city.cpython-311.pyc
+│ │ │ │ └── country.cpython-311.pyc
+│ │ │ │ └── person.cpython-311.pyc
+│ │ │ │ └── __init__.cpython-311.pyc
+│ │ └── __init__.py
+│ │ │ src\core\__pycache__
+│ │ │ └── __init__.cpython-311.pyc
+│ │ src\data_generators
+│ │ └── person_gen.py
+│ │ │ src\data_generators\political_structures
+│ │ │ └── government_type_gen.py
+│ │ │ └── judiciary_gen.py
+│ │ │ └── legislature_gen.py
+│ │ │ └── political_party_gen.py
+│ │ │ └── __init__.py
+│ │ │ src\data_generators\settlements
+│ │ │ └── city_gen.py
+│ │ │ └── country_gen.py
+│ │ │ └── __init__.py
+│ │ │ src\data_generators\social_structures
+│ │ │ └── education_systems_gen.py
+│ │ │ └── family_gen.py
+│ │ │ └── professions_gen.py
+│ │ │ └── religions_gen.py
+│ │ │ └── __init__.py
+│ │ └── __init__.py
+│ │ │ src\data_generators\__pycache__
+│ │ │ └── city_gen.cpython-311.pyc
+│ │ │ └── country_gen.cpython-311.pyc
+│ │ │ └── person_gen.cpython-311.pyc
+│ │ │ └── __init__.cpython-311.pyc
+│ └── interactions.py
+│ └── __init__.py
+│ │ src\__pycache__
+│ │ └── __init__.cpython-311.pyc
+└── structure.txt
+│ tests
+│ │ tests\integration_tests
+│ │ └── test_world_creation.py
+│ │ └── test_world_simulation.py
+│ │ └── __init__.py
+│ │ tests\unit_tests
+│ │ └── city_unit_test.py
+│ │ └── country_unit_test.py
+│ │ └── education_systems_unit_test.py
+│ │ └── family_unit_test.py
+│ │ └── government_type_unit_test.py
+│ │ └── judiciary_unit_test.py
+│ │ └── legislature_unit_test.py
+│ │ └── person_unit_test.py
+│ │ └── political_party_unit_test.py
+│ │ └── professions_unit_test.py
+│ │ └── religions_unit_test.py
+│ │ └── __init__.py
+│ │ │ tests\unit_tests\__pycache__
+│ │ │ └── city_unit_test.cpython-311.pyc
+│ │ │ └── country_unit_test.cpython-311.pyc
+│ │ │ └── person_unit_test.cpython-311.pyc
+│ │ │ └── __init__.cpython-311.pyc
+│ └── __init__.py
+│ │ tests\__pycache__
+│ │ └── __init__.cpython-311.pyc
