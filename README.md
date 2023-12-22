@@ -1,2 +1,2 @@
 # hello_world
- Toll for generating semi-randon fantastical worlds
+ Tool for generating semi-randon fantastical worlds
